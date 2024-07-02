@@ -1,0 +1,19 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release:
+    name: Release code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Release
+        uses: jef/conventional-commits-release-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}

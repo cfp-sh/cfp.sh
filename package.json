@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.7.0",
-    "@biomejs/biome": "1.7.3",
+    "@biomejs/biome": "1.8.3",
     "@types/bun": "^1.0.7",
     "@types/react": "^18.2.66",
     "globals": "^14.0.0",

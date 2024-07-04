@@ -12,37 +12,97 @@ import MarkdownLayout from '~/layouts/MarkdownLayout.astro';
 	currentNav="Home"
 >
 	<div class="flex flex-col items-center gap-4 xl:flex-row">
-		<Picture class="lg:max-w-md" src={img} formats={['avif', 'webp']} alt="a dog" loading="eager" />
 		<div>
-			<h1>Hello there! I am Ladit👋</h1>
-			<p>
-				This is a blog template built with <a href="https://astro.build">Astro</a>. The theme
-				originates from <a href="https://github.com/varkai/hugo-theme-zozo">hugo-theme-zozo</a>.
-				Check out <a href="/posts/getting-started">the docs</a> to get started. Here are some
-				features:
-			</p>
-			<ul class="list-disc">
-				<li>
-					Fast and light weight. Lighthouse 4 * 100/100 on desktop. 1 point decreased on mobile.
-				</li>
-				<li>
-					<a href="https://astro.build">Astro 4</a> with no other UI frameworks integrated for better
-					performance
-				</li>
-				<li>
-					mobile-friendly responsive design with <a href="https://tailwindcss.com/">Tailwind CSS</a>
-				</li>
-				<li>
-					Light / dark theme derived from <a href="https://github.com/varkai/hugo-theme-zozo"
-						>hugo-theme-zozo</a
-					>
-				</li>
-				<li>Markdown post support with emoji shortcode, katex</li>
-				<li>static search with <a href="https://pagefind.app">Pagefind</a></li>
-				<li>comment system powered by <a href="https://github.com/giscus/giscus">giscus</a></li>
-				<li>SEO-friendly setup with canonical URLs and OpenGraph data</li>
-				<li>RSS / Sitemap.xml / dynamic open graph image generation</li>
-			</ul>
+<h1>Welcome to CFP.sh</h1>
+
+<h2>Your Community Hub for Tech Conference CFPs</h2>
+
+<p>At CFP.sh, we're committed to empowering speakers and fostering a vibrant tech conference ecosystem. Our mission is to provide resources, support, and a platform for community engagement around Call for Papers (CFPs) for technology conferences.</p>
+
+<h3>What We Offer</h3>
+
+<ul>
+  <li><strong>CFP Writing Guide</strong>: Comprehensive resources to help you craft compelling proposals</li>
+  <li><strong>Conference List</strong>: Up-to-date directory of tech conferences and their CFP deadlines</li>
+  <li><strong>Community Forum</strong>: A space for speakers to connect, share experiences, and seek advice</li>
+  <li><strong>Resource Library</strong>: Curated tools and tips to enhance your speaking journey</li>
+</ul>
+
+<h2>Get Involved</h2>
+
+<p>We believe in the power of community. Here's how you can contribute:</p>
+
+<ol>
+  <li><strong>Share Your Expertise</strong>
+    <ul>
+      <li>Submit guest posts on CFP writing tips</li>
+      <li>Offer to mentor new speakers</li>
+    </ul>
+  </li>
+  <li><strong>Contribute to Our Resources</strong>
+    <ul>
+      <li>Help maintain our conference list</li>
+      <li>Suggest improvements to our guides</li>
+    </ul>
+  </li>
+  <li><strong>Engage in Discussions</strong>
+    <ul>
+      <li>Participate in our community forum</li>
+      <li>Join our monthly virtual meetups</li>
+    </ul>
+  </li>
+  <li><strong>Spread the Word</strong>
+    <ul>
+      <li>Share cfp.sh with your network</li>
+      <li>Follow us on social media <a href="https://x.com/cfp_sh">@cfp_sh</a></li>
+    </ul>
+  </li>
+</ol>
+
+<h2>Featured Conferences</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Conference Name</th>
+      <th>CFP Deadline</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TechCon 2024</td>
+      <td>2024-08-15</td>
+      <td>Virtual</td>
+    </tr>
+    <tr>
+      <td>DevSummit 2024</td>
+      <td>2024-09-30</td>
+      <td>New York</td>
+    </tr>
+    <tr>
+      <td>CodeFest 2025</td>
+      <td>2024-12-31</td>
+      <td>London</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Community Spotlight</h2>
+
+<blockquote>
+  <p>"CFP.sh has been instrumental in launching my speaking career. The resources and community support are invaluable!" - Jane Doe, Software Engineer</p>
+</blockquote>
+
+<h2>Stay Connected</h2>
+
+<p>Don't miss out on the latest CFP opportunities and community updates!</p>
+
+<p><a href="#">Subscribe to Our Newsletter</a></p>
+
+<hr>
+
+<p><em>CFP.sh is maintained by the community, for the community. <a href="https://github.com/mencarellic/cfp.sh" target="_blank">Contribute on GitHub</a></em></p>
 		</div>
 	</div>
 </MarkdownLayout>
